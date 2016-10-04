@@ -1,0 +1,41 @@
+	#container {
+		width: 500px;
+		margin: 50px auto;
+	}
+	.todo-label {
+		display: block;
+		text-align: center;
+		font-family: Helvetica, sans-serif;
+	    font-size: 20px;
+
+	}
+	#input {
+		width: 400px;
+		margin: 20px auto;
+	}
+	#task {
+		width: 320px;
+		font-size: 20px;
+	}
+	#add {
+		display: inline-block;
+		font-size: 17px;
+		margin-left: 10px;
+	}
+	ul {
+		list-style-type:none;
+	}
+	li {
+		margin: 8px;
+		height: 25px;
+	}
+	.remove {
+		display: none;
+	}
+	.finished {
+		text-decoration: line-through
+	}
+	#todo-stats {
+		margin: 30px;
+		color: red;
+	}
